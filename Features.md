@@ -1,5 +1,7 @@
 **FEATURES TO INCLUDE**
 - GUI
+  - Screen for including 
+  - Colours for brackets
 - ~~Arithmetic~~ 
 - Differentiation 
    - promts user for function, coordinator how many times. They switch by pressing arrows and Enter.
@@ -8,10 +10,10 @@
 - Trig 
    - Sin, cos, tan and arc 
    - hyperbolic 
-- Colours for brackets
 - random number generator 
 - equation solver 
 - Complex numbers 
 - graphing
 - square root/power buttons
 - logarithms
+- Translator to translate the human text into machine readable 
