@@ -1,4 +1,4 @@
-
+**features to include**
 - Addition (basic functions)
 - Differentiation 
    - promts user for function, coordinator how many times. They switch by pressing arrows and Enter.
