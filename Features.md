@@ -16,4 +16,6 @@
 - graphing
 - square root/power buttons
 - logarithms
-- Translator to translate the human text into machine readable 
+- Translator to translate the human text into machine readable
+
+- this is legit a sort of coding language if you think about it 
