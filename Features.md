@@ -2,7 +2,7 @@
 Addition (basic functions)
 Differentiation 
   promts user for function, coordinator how many times. They switch by pressing arrows and Enter.
-Integration 
+Integration DONE 
 Trig 
   Sin, cos, tan and arc 
   hyperbolic 
