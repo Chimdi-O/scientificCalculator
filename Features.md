@@ -1,8 +1,10 @@
-**features to include**
-- Addition (basic functions)
+**FEATURES TO INCLUDE**
+- GUI
+- ~~Arithmetic~~ 
 - Differentiation 
    - promts user for function, coordinator how many times. They switch by pressing arrows and Enter.
-- Integration DONE 
+- ~~Indefinate Integration~~
+- Definate Integration 
 - Trig 
    - Sin, cos, tan and arc 
    - hyperbolic 
