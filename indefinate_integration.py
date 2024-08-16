@@ -56,8 +56,5 @@ def basic_integration(function):
         
         else: 
             integratedFunction.append(str(finalCoefficient)+"x^"+str(finalPower))
-        
-    print(integratedFunction)
 
-
-        
+    return integratedFunction + " + c" 
