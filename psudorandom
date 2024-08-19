@@ -1,0 +1,8 @@
+import random
+from tkinter import END
+from tkinter import simpledialog
+
+def randomint(output=None):
+    start = simpledialog.askinteger("RandomInt", "Enter start value: ")
+    end = simpledialog.askinteger("RandomInt", "Enter end value: ")
+    output.insert(END,random.randint(start,end))
