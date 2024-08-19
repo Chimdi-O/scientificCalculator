@@ -47,6 +47,3 @@ def solver(matrix):
     xval = matrix[0][2]
     yval = matrix[1][2]
     return xval, yval
-matrix = [[5,1,11], 
-         [3,-1,9]]
-print( solver(matrix))
