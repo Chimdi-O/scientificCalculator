@@ -4,9 +4,9 @@
 
 
 
-from indefinate_integration import * 
+from indefinite_integration import * 
 
-def definate_basic_integration(lim1,lim2,function): 
+def definite_basic_integration(lim1,lim2,function): 
     lim1total = 0 
     lim2total = 0
     integrated_function = basic_integration(function)
