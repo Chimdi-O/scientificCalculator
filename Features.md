@@ -5,6 +5,7 @@
 - **GUI:** An interactive user interface for ease of use.
 - **Arithmetic:** Basic arithmetic functions including addition, subtraction, multiplication, and division.
 - **Power Buttons:** Allows calculation of exponents.
+- **Square Root Button:** Allows calculation of square roots.
 - **Random Number Generator:** Generates random numbers.
 
 ### Features to Be Implemented
@@ -15,7 +16,6 @@
 - **Equation Solver:** Solves algebraic equations.
 - **Graphing:** Plots graphs for visualizing functions.
 - **Logarithms:** Calculates logarithms for various bases.
-- **Square Root Button:** Allows calculation of square roots.
 - **Trig:** Includes sin, cos, tan, arcs, and hyperbolic functions.
 - **Help** Tells the user the different fuctions of the calculator
 
