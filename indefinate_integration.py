@@ -11,7 +11,7 @@ def basic_integration(function):
     while endOfList == False: 
 
         if function[listIndex] == "-": 
-            function[listIndex+1] =str(int(function[listIndex+1])*-1) 
+            function[listIndex+1] =str(int(function[listIndex+1][0])*-1) + function[listIndex+1][1:]
             function.pop(listIndex)
             listIndex -= 1 
         if function[listIndex] == "+": 
@@ -37,10 +37,6 @@ def basic_integration(function):
             power = int(function[i][function[i].index("^")+1]) 
             coefficient = int(function[i][:function[i].index("x")])
 
-            
-
-        
-
         finalPower = power+1 
         finalCoefficient = coefficient/finalPower
 
@@ -55,6 +51,24 @@ def basic_integration(function):
 
         
         else: 
+            
             integratedFunction.append(str(finalCoefficient)+"x^"+str(finalPower))
 
-    return integratedFunction + " + c" 
+    integratedFunction.append("c") 
+
+    temp = integratedFunction
+    integratedFunction = ""
+
+    for i in range(len(temp)): 
+        if i == 0:
+            integratedFunction += temp[i]
+            continue
+
+        if i != "-": 
+            integratedFunction = integratedFunction + " + "
+        else: 
+            integratedFunction.append(" - ")
+
+        integratedFunction += temp[i]
+       
+    return integratedFunction
