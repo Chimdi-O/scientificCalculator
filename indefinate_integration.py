@@ -1,6 +1,6 @@
 #this works with funcitions with exponents expressed as ^ and a gap between every symbol and number#
 #for example 3x^2 + 6x + 2 is valid but 
-# 9x**3 + 2x**2 +1  is not 
+# 9x^3 + 2x^2 +1  is not 
 
 def basic_integration(function): 
     
