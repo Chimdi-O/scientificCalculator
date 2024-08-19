@@ -26,11 +26,11 @@ def basic_integration(function):
         if "x" not in function[i]: 
             power = 0 
             coefficient = int(function[i])
-        elif "^" not in function[i]: 
+        elif "**" not in function[i]: 
             power = 1 
             coefficient = int(function[i][:function[i].index("x")])
         else: 
-            power = int(function[i][function[i].index("^")+1]) 
+            power = int(function[i][function[i].index("**")+1]) 
             coefficient = int(function[i][:function[i].index("x")])
 
             
@@ -51,6 +51,6 @@ def basic_integration(function):
 
         
         else: 
-            integratedFunction.append(str(finalCoefficient)+"x^"+str(finalPower))
+            integratedFunction.append(str(finalCoefficient)+"x**"+str(finalPower))
 
     return integratedFunction + " + c" 
